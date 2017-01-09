@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ClevertapReact from 'clevertap-react';
+import ClevertapReact from 'clevertap-react/src';
 class App extends Component {
 
 
