@@ -1,0 +1,31 @@
+{
+  "name": "clevertap-react",
+  "version": "0.0.1",
+  "description": "Wrapper to integrate Clevertap with ReactJS Applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshmaur/clevertap-react.git"
+  },
+  "keywords": [
+    "react",
+    "clevertap"
+  ],
+  "author": "Harsh Maur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshmaur/clevertap-react/issues"
+  },
+  "homepage": "https://github.com/harshmaur/clevertap-react#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-preset-es2015": "^6.18.0",
+    "webpack": "^2.2.0-rc.3"
+  }
+}
