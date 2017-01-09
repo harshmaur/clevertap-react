@@ -63,40 +63,14 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
 /***/ function(module, exports) {
 
-module.exports = function(module) {
-	if(!module.webpackPolyfill) {
-		module.deprecate = function() {};
-		module.paths = [];
-		// module.parent = undefined by default
-		if(!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			configurable: false,
-			get: function() { return module.l; }
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			configurable: false,
-			get: function() { return module.i; }
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
-}
-
-
-/***/ },
-/* 1 */
-/***/ function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {var ClevertapReact = {
+var ClevertapReact = {
   initialize: function initialize(accountId) {
     window.clevertap = { event: [], profile: [], account: [], onUserLogin: [], notifications: [] };
     window.clevertap.account.push({ 'id': accountId });
@@ -122,8 +96,7 @@ module.exports = function(module) {
   }
 };
 
-module.export = ClevertapReact;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)(module)))
+module.exports = ClevertapReact;
 
 /***/ }
 /******/ ]);

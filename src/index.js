@@ -26,4 +26,4 @@ var ClevertapReact = {
   }
 };
 
-module.export = ClevertapReact;
+module.exports = ClevertapReact;
