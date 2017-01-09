@@ -26,4 +26,4 @@ var ClevertapReact = {
   }
 };
 
-export default ClevertapReact;
+module.export = ClevertapReact;
