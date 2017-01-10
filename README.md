@@ -1,6 +1,12 @@
 # clevertap-react
-Wrapper to integrate Clevertap with ReactJS Applications
+Wrapper to integrate Clevertap with ReactJS Applications. 
 
+
+Technically it should work with Any SPA like Angular, Vue, etc. 
+It should also support React Native. (untested)
+
+
+*PR and Issues are welcomed*
 
 ### Usage
 
