@@ -1,6 +1,6 @@
 {
   "name": "clevertap-react",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "Wrapper to integrate Clevertap with ReactJS Applications",
   "main": "index.js",
   "scripts": {
