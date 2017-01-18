@@ -60,6 +60,6 @@ ClevertapReact.logout()
 
 ### TODO
 
-- [ ] Documentation
+- [x] Documentation
 - [ ] Examples
-- [ ] Push Notifications.
+- [ ] Support for Push Notifications.
