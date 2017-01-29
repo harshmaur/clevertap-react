@@ -1,4 +1,6 @@
 # clevertap-react
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/harshmaur/clevertap-react.svg)](https://greenkeeper.io/)
 Wrapper to integrate Clevertap with ReactJS Applications. 
 
 
